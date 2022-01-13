@@ -5,9 +5,9 @@ import React, { useEffect, useRef, useState } from "react";
 import * as Permissions from 'expo-permissions';
 import * as MediaLibrary from 'expo-media-library';
 
-const ALBUM_TITLE = // ALBUM NAME (ON YOUR PHONE) HERE
-const TITLE = // TITLE HERE
-const DATE = new Date("January 01, 2000");
+const ALBUM_TITLE = ""; // ALBUM NAME (ON YOUR PHONE) HERE
+const TITLE = ""; // TITLE HERE
+const DATE = new Date("January 01, 2000"); // The date of the important event you want to start counting at!
 const TODAY = new Date();
 const ELAPSED = TODAY - DATE;
 
